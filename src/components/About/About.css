@@ -1,0 +1,116 @@
+/* About */
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.about-section .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.about-section .image-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid greenyellow;
+    background-size: contain;
+}
+
+.about-section .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 100px;
+    width: 70%;
+}
+
+.about-section h2 {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.about-section p {
+    font-size: 16px;
+    color: #c9c7c7;
+}
+
+.about-section span {
+    color: rgb(255, 111, 111);
+    margin-left: 8px;
+}
+
+.about-section button {
+    background: #242323;
+    border: none;
+    height: 80px;
+    width: 240px;
+    color: #fff;
+    transition: all 0.3s;
+    border-radius: 5px;
+    margin-top: 16px;
+    font-size: 18px;
+}
+
+.about-section button i {
+    margin-right: 10px;
+}
+
+.about-section button:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #000000;
+}
+
+@media(max-width: 800px) {
+    .about-section {
+        height: 90vh;
+    }
+
+    .about-section .image-container {
+        display: none;
+    }
+
+    .about-section .content {
+        width: 100%;
+    }
+
+    .about-section .contact {
+        margin-top: 50px;
+    }
+
+    .about-section button {
+        margin-top: 50px;
+    }
+}
+
+@media(max-width: 650px) {
+    .about-section {
+        height: 80vh;
+    }
+
+    .about-section .content {
+        justify-content: center;
+        align-items: center;
+        margin: 0 40px;
+        text-align: center;
+    }
+
+    .about-section .contact {
+        width: 100%;
+        margin-top: 15px;
+        border-top: 1px solid rgb(113, 95, 95);
+        padding-top: 15px;
+    }
+
+    .about-section button {
+        margin-top: 20px;
+    }
+}

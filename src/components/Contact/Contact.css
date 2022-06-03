@@ -1,0 +1,86 @@
+.contactt {
+    position: relative;
+    height: 85vh;
+    color: #fff;
+}
+
+.contactt h1 {
+    text-align: center;
+    padding: 5rem 0 0 0;
+}
+
+.contactt .form-group {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-13%);
+}
+
+.contactt .inputs {
+    padding-right: 10rem;
+    width: 50%;
+}
+
+.contactt input {
+    margin: 1rem 0;
+}
+
+label {
+    margin: 0 !important;
+}
+
+.contactt input,
+textarea {
+    background: transparent;
+    border: 1px solid white;
+    color: #fff;
+}
+
+textarea {
+    padding: 10px;
+}
+
+.contactt .sended {
+    width: 30rem;
+}
+
+.contactt .sended h4 {
+    line-height: 2;
+    color: rgb(250, 143, 143);
+}
+
+input:focus,
+textarea:focus {
+    border: 2px solid green;
+    background: #ffffff;
+    color: #000000;
+}
+
+.contactt .error {
+    font-size: 2rem;
+    color: rgb(248, 77, 77);
+    margin: 1rem;
+}
+
+@media only screen and (max-width: 590px) {
+    .contactt {
+        height: 40vh;
+    }
+
+    .contactt .form-group {
+        height: 40vh;
+        margin: 0 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 590px) and (max-width: 850px) {
+    .contactt {
+        height: 50vh;
+    }
+
+    .contactt .form-group {
+        height: 50vh;
+        margin: 0 1.5rem;
+    }
+}
