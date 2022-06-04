@@ -4,6 +4,14 @@ import "./Home.css";
 const Navbar = () => {
   const [show, setShow] = useState(false);
 
+  const linkClicked = () => {
+    setShow(!show);
+
+    setTimeout(() => {
+      window.scrollBy(0, -100);
+    }, 800);
+  };
+
   return (
     <div className="nav_container">
       <nav>
@@ -16,27 +24,27 @@ const Navbar = () => {
         </button>
         <ul className={`links ${show ? "show" : ""}`}>
           <li>
-            <a onClick={() => setShow(false)} href="#home">
+            <a onClick={linkClicked} href="#home">
               Home
             </a>
           </li>
           <li>
-            <a onClick={() => setShow(false)} href="#about">
+            <a onClick={linkClicked} href="#about">
               About
             </a>
           </li>
           <li>
-            <a onClick={() => setShow(false)} href="#skills">
+            <a onClick={linkClicked} href="#skills">
               Skills
             </a>
           </li>
           <li>
-            <a onClick={() => setShow(false)} href="#projects">
+            <a onClick={linkClicked} href="#projects">
               Projects
             </a>
           </li>
           <li>
-            <a onClick={() => setShow(false)} href="#contact">
+            <a onClick={linkClicked} href="#contact">
               Contact Me
             </a>
           </li>
