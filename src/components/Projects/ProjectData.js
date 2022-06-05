@@ -1,6 +1,7 @@
 // images
 import quiz from "../../images/quiz_app.jpg";
 import youtube from "../../images/youtube.jpg";
+import tony from "../../images/tony.jpg";
 
 const portfolio = [
   {
@@ -17,6 +18,13 @@ const portfolio = [
       "The Youtube with the youtube api using React Hooks. Advance search used on searchbar.",
     liveUrl: "https://youtube0.netlify.app/",
     github: "https://github.com/Emin-M/youtube_api.git",
+  },
+  {
+    name: "Tony Clone",
+    image: tony,
+    description: "The Clone of Portfolio by using SCSS (SASS).",
+    liveUrl: "https://tony-portfolio-clone.netlify.app/",
+    github: "https://github.com/Emin-M/tony_portfolio_clone.git",
   },
 ];
 
