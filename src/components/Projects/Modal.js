@@ -27,7 +27,7 @@ const Modall = (props) => {
 
         <Modal.Body>
           <img className="img" src={image} alt={name} />
-          <p>{description}</p>
+          <p className="mt-3">{description}</p>
         </Modal.Body>
         <Modal.Footer className="d-grid gap-2">
           <Button
