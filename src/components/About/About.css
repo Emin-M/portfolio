@@ -17,11 +17,12 @@
 }
 
 .about-section .image-container img {
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 230px;
     border-radius: 50%;
     border: 5px solid greenyellow;
     background-size: contain;
+    background-position: center;
 }
 
 .about-section .content {
