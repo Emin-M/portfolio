@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Skills.css";
+import typescript from "../../images/typescript.png";
 
 const Skills = () => {
   const [clas, setClas] = useState(false);
@@ -21,6 +22,10 @@ const Skills = () => {
             <p>JavaScript</p>
           </li>
           <li>
+            <img src={typescript} alt="typescript" />
+            <p>TypeScript</p>
+          </li>
+          <li>
             <i className="fab fa-react"></i>
             <p>React</p>
           </li>
@@ -40,10 +45,10 @@ const Skills = () => {
             <i className="fab fa-github"></i>
             <p>Github</p>
           </li>
-          <li>
+          {/*<li>
             <i className="fab fa-npm"></i>
             <p>NPM</p>
-          </li>
+          </li>*/}
         </ul>
         <div>
           <h3>Soft Skills</h3>
