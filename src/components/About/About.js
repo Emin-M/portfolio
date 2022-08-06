@@ -1,6 +1,6 @@
 import React from "react";
 import Particle from "../Particles/Particles";
-import image from "../../images/my-cover-photo.jpeg";
+import image from "../../images/my-cover-photo_2.jpeg";
 import "./About.css";
 
 const About = () => {
