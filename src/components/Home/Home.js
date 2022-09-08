@@ -35,7 +35,7 @@ const Home = () => {
             <a
               rel="noreferrer"
               target="_blank"
-              href="https://www.linkedin.com/in/emin-mustafazade-ba8475211"
+              href="https://www.linkedin.com/in/emin-mustafazade/"
             >
               <i className="fab fa-linkedin-in hover_i"></i>
             </a>
