@@ -34,7 +34,7 @@ const About = () => {
           <a
             rel="noreferrer"
             target="_blank"
-            href="https://drive.google.com/file/d/11qzUtmbZod4uJYFCmumqRVy9-p1BdruE/view"
+            href="https://drive.google.com/file/d/1j6XT619bdyPZbhjxcmjvty83Ae8dUiva/view?usp=sharing"
           >
             <button>
               <i className="fas fa-download"></i>
